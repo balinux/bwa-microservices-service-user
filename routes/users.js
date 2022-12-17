@@ -14,5 +14,8 @@ router.post('/register', userHandler.register);
 /* POST users login. */
 router.post('/login', userHandler.login);
 
+/* PUT users update. */
+router.put('/:id', userHandler.update);
+
 
 module.exports = router;
