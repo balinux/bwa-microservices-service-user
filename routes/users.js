@@ -18,5 +18,9 @@ router.post('/login', userHandler.login);
 /* PUT users update. */
 router.put('/:id', userHandler.update);
 
+/* POST users logout. */
+router.post('/logout', userHandler.logout);
+
+
 
 module.exports = router;
