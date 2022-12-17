@@ -47,7 +47,8 @@ module.exports = async (req, res) => {
     return res.json({
         status: 'success',
         data: {
-            id: createRefreshToken.id
+            id: createRefreshToken.id,
+            refresh_token: createRefreshToken.token
         }
     })
 }
