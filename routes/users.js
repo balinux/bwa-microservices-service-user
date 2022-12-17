@@ -9,7 +9,10 @@ router.get('/', function(req, res, next) {
 });
 
 /* POST users create/register. */
-
 router.post('/register', userHandler.register);
+
+/* POST users login. */
+router.post('/login', userHandler.login);
+
 
 module.exports = router;
