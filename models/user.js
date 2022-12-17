@@ -43,7 +43,7 @@ module.exports = (sequelize, DataTypes) => {
             type: DataTypes.DATE,
             allowNull: false
         },
-    }, { tableName: 'user', timestamps: true });
+    }, { tableName: 'users', timestamps: true });
 
     return User;
 }
