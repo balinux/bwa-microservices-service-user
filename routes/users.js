@@ -8,6 +8,9 @@ router.get('/', function(req, res, next) {
   res.send('respond with a resource');
 });
 
+/* GET user. */
+router.get('/:id', userHandler.getUser);
+
 /* POST users create/register. */
 router.post('/register', userHandler.register);
 
