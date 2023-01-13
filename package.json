@@ -1,9 +1,10 @@
 {
   "name": "service-user",
-  "version": "0.0.0",
-  "private": true,
+  "version": "1.0.0",
+  "description": "Yhotie Education Service User",
+  "main": "./bin/www",
   "scripts": {
-    "start": "nodemon ./bin/www"
+    "start": "node ./bin/www"
   },
   "dependencies": {
     "bcrypt": "^5.1.0",
