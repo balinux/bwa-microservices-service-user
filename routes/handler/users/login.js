@@ -53,6 +53,7 @@ module.exports = async (req, res) => {
             email: user.email,
             avatar: user.avatar,
             profession: user.profession,
+            role: user.role
         }
     })
 
